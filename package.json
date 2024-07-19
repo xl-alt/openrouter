@@ -1,0 +1,24 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "request": "^2.88.2",
+    "gpt-3-encoder": "^1.1.4",
+    "axios": "^1.2.3",
+    "qs": "^6.11.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
